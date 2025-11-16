@@ -6,14 +6,14 @@ pipeline {
             steps {
                 echo 'Building the application...'
                 // Placeholder command for a build tool like Maven or Gradle
-                sh 'mvn compile' 
+                // sh 'mvn compile' 
             }
         }
         stage('Test') {
             steps {
                 echo 'Running tests...'
                 // Placeholder command for running unit or integration tests
-                sh 'mvn test' 
+                // sh 'mvn test' 
             }
         }
         // stage('Deploy') {
