@@ -1,4 +1,3 @@
-$ script.sh
 1 sudo yum install java -y
 2 sudo yum install git -y
 3 sudo yum install maven -y
