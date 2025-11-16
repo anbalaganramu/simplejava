@@ -5,6 +5,9 @@ pipeline {
         stage('Compile') {
             steps {
                 echo 'Building the application...'
+                script{
+                    sh 'mkdir demo1'
+                }
                 // Placeholder command for a build tool like Maven or Gradle
                 // sh 'mvn compile' 
             }
